@@ -145,7 +145,18 @@ class _MyHomePageState extends State<MyHomePage> {
               ),
             ),
 
+          ),
+          SizedBox(height: screenHeight * 0.020,),
+          Card(
+            child: Container(
+              height: screenHeight * 0.040,
+              width: screenHeight * 0.070,
+              child: Text(
+                '1'
+              ),
+            ),
           )
+
         ],
       )
     );
