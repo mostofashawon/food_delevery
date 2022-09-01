@@ -35,6 +35,7 @@ class _MyHomePageState extends State<MyHomePage> {
     var screenWidth = MediaQuery.of(context).size.width;
 
     return Scaffold(
+      backgroundColor: Colors.white,
       body: SingleChildScrollView(
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.start,
@@ -246,7 +247,8 @@ class _MyHomePageState extends State<MyHomePage> {
             ),
             SizedBox(height: screenHeight * 0.010,),
             Divider(
-              color: Colors.grey,
+              color: Colors.grey.shade400,
+              thickness: 1.0,
             ),
             SizedBox(height: screenHeight * 0.010,),
             Row(
@@ -346,7 +348,8 @@ class _MyHomePageState extends State<MyHomePage> {
             ),
             SizedBox(height: screenHeight * 0.010,),
             Divider(
-              color: Colors.grey,
+              color: Colors.grey.shade400,
+              thickness: 1.0,
             ),
             SizedBox(height: screenHeight * 0.010,),
             Row(
@@ -446,7 +449,7 @@ class _MyHomePageState extends State<MyHomePage> {
             ),
             SizedBox(height: screenHeight * 0.010,),
             Divider(
-              color: Colors.grey,
+              color: Colors.grey.shade400,
               thickness: 1.0,
             ),
             SizedBox(height: screenHeight * 0.010,),
@@ -547,7 +550,8 @@ class _MyHomePageState extends State<MyHomePage> {
             ),
             SizedBox(height: screenHeight * 0.010,),
             Divider(
-              color: Colors.grey,
+              color: Colors.grey.shade400,
+              thickness: 1.0,
             ),
             SizedBox(height: screenHeight * 0.010,),
             Padding(
